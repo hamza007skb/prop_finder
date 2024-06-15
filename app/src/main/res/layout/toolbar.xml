@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1874bc"
+    android:id="@+id/toolbar"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+    >
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_margin="2dp"
+            android:src="@drawable/back_arrow" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROPFINDER"
+            android:textSize="30sp"
+            android:paddingLeft="70dp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

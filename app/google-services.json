@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087507845942",
+    "project_id": "prop-finder-65f66",
+    "storage_bucket": "prop-finder-65f66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087507845942:android:e927954831c93b3155d997",
+        "android_client_info": {
+          "package_name": "com.example.propfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG9RWHoT-6lrL8Ee1541LQ0r9KKCeyTLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

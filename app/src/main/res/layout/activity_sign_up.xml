@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity"
+    android:background="#CBE9EB">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:text="Create Your Account"
+        android:textSize="31sp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:hint="  Full Name"
+        android:textColorHint="#d3d3d3"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/fullname_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#d3d3d3"
+        android:hint="  e-mail"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/email_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="  Phone #"
+        android:textColor="@color/black"
+        android:textColorHint="#d3d3d3"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/phone_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#d3d3d3"
+        android:contentDescription="password"
+        android:hint="  Password"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/password_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:contentDescription="password"
+        android:layout_marginTop="15dp"
+        android:hint="  Confirm Password"
+        android:textColorHint="#d3d3d3"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/c_pass_txt" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="267dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:hint="Select User Type"
+            android:textColorHint="#d3d3d3"
+            android:background="@color/white">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="  Agency Name"
+        android:textColorHint="#d3d3d3"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/agency_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="  License #"
+        android:textColorHint="#d3d3d3"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/license_txt" />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="  Commision Rate"
+        android:textColorHint="#d3d3d3"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edittext_background"
+        android:id="@+id/commision_txt" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:id="@+id/signUp_btn"
+        />
+
+
+</LinearLayout>
